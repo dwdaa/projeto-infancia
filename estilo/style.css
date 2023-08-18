@@ -1,5 +1,58 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
+ html,body{
+    min-height: 100vh;
+ }
+ header{
+    background-color: #FF8262;
+    text-align: center;
+
+ } 
+ header>h1{
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-size: 50px;
+ }
+ header>p{ 
+    font-family: 'Caveat', cursive, Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    font-size: 20px;
+
+ }
+ footer{
+    font-family: 'Playfair Display', serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #FF8262;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px;
+    font-weight: bolder;
+    
+   
+ } header a, footer a{
+    text-decoration: none;
+    color: black;
+    
+ }
+ header a:hover, footer a:hover{
+    text-decoration: underline;
+ }
+ section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+ }
+ section.normal{
+    background-color: bisque;
+ } 
+ section.imagem{
+    background-color: rgba(0, 0, 0, 0.541);
+ }
