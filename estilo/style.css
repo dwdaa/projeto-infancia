@@ -49,6 +49,7 @@
  section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    font-size:3em;
  }
  section.normal{
     background-color: bisque;
