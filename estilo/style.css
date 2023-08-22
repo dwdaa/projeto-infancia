@@ -21,12 +21,16 @@
     padding-top: 50px;
     font-family: 'Playfair Display', serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-variant: small-caps;
-    font-size: 50px;
+    font-size: 7vw;
+ }
+ main>h2{
+   background-color: #FF8262;
+
  }
  header>p{ 
     font-family: 'Caveat', cursive, Arial, Helvetica, sans-serif;
-    padding-bottom: 30px;
-    font-size: 20px;
+    padding-bottom: 40px;
+    
 
  }
  footer{
@@ -50,10 +54,20 @@
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-size:3em;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 4vw;
  }
  section.normal{
     background-color: bisque;
  } 
  section.imagem{
     background-color: rgba(0, 0, 0, 0.541);
+ }
+ section.imagem > p{
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 0.182);
+   padding: 10px;
+
  }
