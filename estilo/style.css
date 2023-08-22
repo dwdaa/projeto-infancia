@@ -67,7 +67,31 @@
  }
  section.imagem > p{
    display: inline-block;
-   background-color: rgba(0, 0, 0, 0.182);
+   background-color: rgba(0, 0, 0, 0.525);
    padding: 10px;
+   color: white;
 
+ } div#imga{
+   background-image: url(../imagens/danca.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.895);
+ }
+ div#imgb{
+   background-image: url(../imagens/noite.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.895);
+ }
+ div#imgc{
+   background-image: url(../imagens/pordosol.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.895);
  }
